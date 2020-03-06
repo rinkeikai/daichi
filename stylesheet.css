@@ -1,0 +1,178 @@
+*{
+  box-sizing:border-box;
+}
+html{
+  height:100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Cinzel";
+  height:100%;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+  clear:left;
+}
+.top-wrapper{
+  width: 100%;
+  height: 600px;
+  padding:180px 0 100px 0;
+  text-align: center;
+  background-image:url(top-img.jpg);
+  background-size:cover;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  height: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container h1{
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 60px;
+  background-color: rgba(245, 245, 245, 0.8);
+  opacity: 0.8;
+}
+.container h2{
+  text-align: center;
+}
+
+header{
+  height:60px;
+  width:100%;
+  background-color:#c0c0c0;
+  opacity: 0.9;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.menu-icon:hover{
+  opacity: 0.7;
+}
+.menu-icon{
+  color: black;
+  opacity:0.6;
+  float: right;
+  font-size: 45px;
+  margin: 10px 25px 10px 0;
+  cursor: pointer;
+}
+/*Gallery*/
+.gallery-wrapper{
+  height: auto;
+  border-top: solid;
+  padding: 50px 0;
+  margin-bottom: 80px;
+}
+.gallery-container{
+  text-align: center;
+  padding-top: 30px;
+}
+.opus{
+  display:inline-block;
+  margin: 20px 10px;
+  width: auto;
+}
+.category{
+  width:30%;
+  display: inline-block;
+}
+.category-text{
+  margin-bottom: 30px;
+}
+/*Menu*/
+.menus{
+  display:none;
+  background-color:white;
+  padding-right: 20px;
+  margin-top:20px;
+  margin-right: 10px;
+  float:right;
+  z-index: 10;
+  font-family:'Gulim';
+  border-radius: 10px;
+  border: 0.5px solid;
+}
+li{
+  margin-bottom: 5px;
+}
+.menu-btn{
+  color:black;
+  font-weight:bold;
+  font-size:20px;
+  cursor: pointer;
+  cursor:hand;
+  text-align: left;
+  margin:0;
+}
+.menu-btn:hover{
+  color:red;
+}
+.close{
+  float: right;
+  font-size: 15px;
+  margin-bottom: 5px 0;
+}
+.close:hover{
+  color:red;
+}
+.header-right{
+  float:right;
+  display:block;
+}
+/*Profile*/
+.profile-wrapper{
+  height: auto;
+  text-align: center;
+  padding: 80px 0;
+  margin-bottom: 30px ;
+}
+.prof-img{
+  width:50%;
+  float: left;
+  margin-bottom: 50px;
+  margin: 50px 0;
+}
+.profile-text{
+  text-align:center;
+  width: 50%;
+  display: inline-block;
+}
+.profile-text h2{
+font-family: "HiraMinPro-W6";
+font-size: 25px;
+}
+.profile-text p{
+  margin: 0;
+  font-family: "YuMincho";
+}
+/*works-page*/
+.gallery-wrapper{
+  text-align: center;
+}
+/*footerのCSS*/
+footer{
+  height:65px;
+  width: 100%;
+  background-color:#c0c0c0;
+}
+footer img{
+  margin: 10px 0 0 10px;
+}
+footer p{
+  float: right;
+  color:#696969;
+  font-family:'Gulim';
+  margin-right: : 10px;
+}
+.red{
+  color:red;
+}
