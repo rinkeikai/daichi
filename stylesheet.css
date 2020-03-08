@@ -75,14 +75,39 @@ header{
   padding: 50px 0;
   margin-bottom: 80px;
 }
-.gallery-container{
+.gallery{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
+  margin-top: 30px;
 }
-.opus{
+/*OBJECT*/
+.object{
   display:inline-block;
   margin: 20px 10px;
-  width: 100%;
+  width: 20%;
+}
+/*DOODLE*/
+.doodle{
+  display:inline-block;
+  margin: 20px 10px;
+  width: 20%;
+}
+/*WELCOMEBORD*/
+.welcomebord{
+  display:inline-block;
+  margin: 20px 10px;
+  width: 20%;
+}
+/*SCULPTURE*/
+.sculpture{
+  display:inline-block;
+  margin: 20px 10px;
+  width: 20%;
+}
+.design{
+  display:inline-block;
+  margin: 20px 10px;
+  width: 20%;
 }
 .category{
   width:30%;
