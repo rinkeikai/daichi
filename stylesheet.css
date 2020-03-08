@@ -75,6 +75,9 @@ header{
   padding: 50px 0;
   margin-bottom: 80px;
 }
+.gallery-container{
+  display:inline-block;
+}
 .gallery{
   text-align: center;
   padding-top: 50px;
@@ -109,7 +112,8 @@ header{
   margin: 20px 10px;
   width: 20%;
 }
-.category{
+
+.category-img{
   width:30%;
   display: inline-block;
 }
