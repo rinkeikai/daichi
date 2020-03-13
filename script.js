@@ -5,21 +5,67 @@ $(function(){
   $("#close").click(function(){
     $("#menu").fadeOut();
   });
-  /*アンカー*/
-  // #で始まるa要素をクリックした場合に処理
-  $('a[href^=#concept-btn]').click(function(){
-    // 移動先を0px調整する。0を30にすると30px下にずらすことができる。
-    var adjust = 0;
-    // スクロールの速度（ミリ秒）
-    var speed = 400;
-    // アンカーの値取得 リンク先（href）を取得して、hrefという変数に代入
-    var href= $(this).attr("#concept-wrapper");
-    // 移動先を取得 リンク先(href）のidがある要素を探して、targetに代入
-    var target = $(href == "#concept-wrapper" || href == "" ? 'html' : href);
-    // 移動先を調整 idの要素の位置をoffset()で取得して、positionに代入
-    var position = target.offset().top + adjust;
-    // スムーススクロール linear（等速） or swing（変速）
-    $('body,html').animate({scrollTop:position}, speed, 'swing');
-    return false;
+  /*OPUSモーダル1*/
+  $("#opus-show1").click(function(){
+    $("#opus1").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus1").fadeOut("fast");
+  });
+  /*OPUSモーダル2*/
+  $("#opus-show2").click(function(){
+    $("#opus2").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus2").fadeOut("fast");
+  });
+  /*OPUSモーダル3*/
+  $("#opus-show3").click(function(){
+    $("#opus3").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus3").fadeOut("fast");
+  });
+  /*OPUSモーダル4*/
+  $("#opus-show4").click(function(){
+    $("#opus4").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus4").fadeOut("fast");
+  });
+  /*OPUSモーダル5*/
+  $("#opus-show5").click(function(){
+    $("#opus5").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus5").fadeOut("fast");
+  });
+  /*OPUSモーダル6*/
+  $("#opus-show6").click(function(){
+    $("#opus6").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus6").fadeOut("fast");
+  });
+  /*OPUSモーダル7*/
+  $("#opus-show7").click(function(){
+    $("#opus7").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus7").fadeOut("fast");
+  });
+  /*OPUSモーダル8*/
+  $("#opus-show8").click(function(){
+    $("#opus8").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus8").fadeOut("fast");
+  });
+  /*OPUSモーダル9*/
+  $("#opus-show9").click(function(){
+    $("#opus9").fadeIn("fast");
+  });
+  $(".close").click(function(){
+    $("#opus9").fadeOut("fast");
   });
 });

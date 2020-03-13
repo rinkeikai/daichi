@@ -68,58 +68,7 @@ header{
   margin: 10px 25px 10px 0;
   cursor: pointer;
 }
-/*Gallery*/
-.gallery-wrapper{
-  height: auto;
-  border-top: solid;
-  padding: 50px 0;
-  margin-bottom: 80px;
-}
-.gallery-container{
-  display:inline-block;
-}
-.gallery{
-  text-align: center;
-  padding-top: 50px;
-  margin-top: 30px;
-}
-/*OBJECT*/
-.object{
-  display:inline-block;
-  margin: 20px 10px;
-  width: 20%;
-}
-/*DOODLE*/
-.doodle{
-  display:inline-block;
-  margin: 20px 10px;
-  width: 20%;
-}
-/*WELCOMEBORD*/
-.welcomebord{
-  display:inline-block;
-  margin: 20px 10px;
-  width: 20%;
-}
-/*SCULPTURE*/
-.sculpture{
-  display:inline-block;
-  margin: 20px 10px;
-  width: 20%;
-}
-.design{
-  display:inline-block;
-  margin: 20px 10px;
-  width: 20%;
-}
 
-.category-img{
-  width:30%;
-  display: inline-block;
-}
-.category-text{
-  margin-bottom: 30px;
-}
 /*Menu*/
 .menus{
   display:none;
@@ -148,7 +97,7 @@ li{
 .menu-btn:hover{
   color:red;
 }
-.close{
+.close-btn{
   float: right;
   font-size: 15px;
   margin-bottom: 5px 0;
@@ -189,6 +138,9 @@ font-size: 25px;
 /*works-page*/
 .gallery-wrapper{
   text-align: center;
+}
+.category-img:hover{
+  opacity: 0.7;
 }
 /*footerのCSS*/
 footer{

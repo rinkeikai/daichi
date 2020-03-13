@@ -8,11 +8,12 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!--CSSのファイル指定-->
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="gallery.css">
     <!--contentにキーワード-->
     <meta name="keywords"  content="　" />
     <!--レスポンシブ適用のメタコード-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSSのファイル指定-->
+    <!--responsiveCSSのファイル指定-->
     <link rel="stylesheet" href="">
     <!--jQuary適応用-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -28,12 +29,11 @@
        </div>
        <div id="menu"class="menus">
          <ul>
-         <li><a id="concept-btn" class="menu-btn" href="index.html">Home</a></li>
-         <li><a id="profile-btn" class="menu-btn" href="#">Profile</a></li>
-         <li><a id="gallery-btn" class="menu-btn" href="#">Gallery</a></li>
+         <li><a id="profile-btn" class="menu-btn" href="#prof">Profile</a></li>
+         <li><a id="gallery-btn" class="menu-btn" href="#gal">Gallery</a></li>
          <li><a id="contact-btn" class="menu-btn" href="#">Contact</a></li>
         </ul>
-        <p id="close" class="menu-btn close">✖︎Close..</p>
+        <p id="close" class="menu-btn close-btn">✖︎Close..</p>
        </div>
      </div>
     </header>
@@ -43,7 +43,7 @@
         </div>
       </div>
       <!--プロフィール-->
-      <div class="profile-wrapper">
+      <div class="profile-wrapper" id="prof">
         <div class="top-container">
           <div class="prof-img">
             <img class="profile-image" src="prof-img.jpg">
@@ -66,7 +66,7 @@
       </div>
       <div class="clear"></div>
       <!--ギャラリー-->
-      <div class="gallery-wrapper">
+      <div class="gallery-wrapper" id="gal">
         <div class="container">
           <h2>Gallery</h2>
           <div class="gallery-container">

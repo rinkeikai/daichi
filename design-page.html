@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ホームページ制作,ポートフォリオ制作"Logic.Co"</title>
+    <title></title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="gallery.css">
     <meta name="keywords"  content="WEB制作,ホームページ制作,WEBデザイン,ポートフォリオ" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <meta name="google-site-verification" content="-ndx2eVHpnVJo7OIDhDnAIWS9EkqNLRKwQeKxzepiO0" />
@@ -20,26 +21,59 @@
        <div id="menu"class="menus">
          <ul>
          <li><a class="menu-btn" href="index.html">Home</a></li>
-         <li><a class="menu-btn" href="profile.html">Profile</a></li>
+         <li><a class="menu-btn" href="profile.html#prof">Profile</a></li>
          <li><a class="menu-btn" href="contact.html">Contact</a></li>
         </ul>
-        <p id="close" class="menu-btn close">✖︎Close..</p>
+        <p id="close" class="menu-btn close-btn">✖︎Close..</p>
        </div>
      </div>
     </header>
     <div class="gallery-wrapper">
       <h2>＜Design＞</h2>
-      <div class="gallery">
-        <a href="#"><img src="gallery/design/DESIGN_1.jpg" class="design"></a>
-        <a href="#"><img src="gallery/design/DESIGN_2.jpg" class="design"></a>
-        <a href="#"><img src="gallery/design/DESIGN_3.jpg" class="design"></a><br>
-        <a href="#"><img src="gallery/design/DESIGN_4.jpg" class="design"></a>
-        <a href="#"><img src="gallery/design/DESIGN_5.jpg" class="design"></a>
+      <!--モーダル-->
+      <!--OPUS１-->
+      <div class="opus-modal" id="opus1">
+        <i class="far fa-window-close fa-2x close"></i>
+        <img src="gallery/design/DESIGN_1.jpg" class="modal-img">
+        <p>テキスト</p>
       </div>
+      <!--OPUS 2-->
+      <div class="opus-modal" id="opus2">
+        <i class="far fa-window-close fa-2x close"></i>
+        <img src="gallery/design/DESIGN_2.jpg" class="modal-img">
+        <p>テキスト</p>
+      </div>
+      <!--OPUS 3-->
+      <div class="opus-modal" id="opus3">
+        <i class="far fa-window-close fa-2x close"></i>
+        <img src="gallery/design/DESIGN_3.jpg" class="modal-img">
+        <p>テキスト</p>
+      </div>
+      <!--OPUS 4-->
+      <div class="opus-modal" id="opus4">
+        <i class="far fa-window-close fa-2x close"></i>
+        <img src="gallery/design/DESIGN_4.jpg" class="modal-img">
+        <p>テキスト</p>
+      </div>
+      <!--OPUS 5-->
+      <div class="opus-modal" id="opus5">
+        <i class="far fa-window-close fa-2x close"></i>
+        <img src="gallery/design/DESIGN_5.jpg" class="modal-img">
+        <p>テキスト</p>
+      </div>
+      <div class="gallery">
+        <img src="gallery/design/DESIGN_1.jpg" class="design" id="opus-show1">
+        <img src="gallery/design/DESIGN_2.jpg" class="design" id="opus-show2">
+        <img src="gallery/design/DESIGN_3.jpg" class="design" id="opus-show3"><br>
+        <img src="gallery/design/DESIGN_4.jpg" class="design" id="opus-show4">
+        <img src="gallery/design/DESIGN_5.jpg" class="design" id="opus-show5">
+      </div>
+    </div>
+    <div class="back-home">
+      <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
     </div>
     <footer>
       <div class="footer-container">
-        <img src="logic2.png"/>
         <p>©️2020 Logic Creative Co<span class="red">.</span></p>
       </div>
     </footer>
