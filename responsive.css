@@ -1,0 +1,56 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1025px) {
+
+
+/* スマホ向けレイアウト */
+
+@media (max-width: 670px) {
+  html{
+    height: auto;
+  }
+  body{
+    height: 100%;
+  }
+  footer {
+    text-align: center;
+    height: 66px;
+  }
+  .top-wrapper{
+    display: none;
+  }
+  /*Contact*/
+  .section-title{
+    width: auto;
+  }
+  .contact-form input{
+    width: auto;
+  }
+  .contact-form textarea{
+    width: auto;
+  }
+  /*prof*/
+  .profile-wrapper{
+  height: 100%;
+  width: 100%;
+  background-color:#f7f7f7;
+  background-size:cover;
+  padding: 30px 0 100px 0;
+  color: black;
+  text-align:center;
+}
+  .prof-img{
+    width: 50%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  .profile-text{
+    width: 80%;
+    clear:left;
+    float: none;
+    text-align: center;
+  }
+ br{
+   display: none;
+ }
+}
