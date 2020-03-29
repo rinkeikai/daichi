@@ -1,9 +1,8 @@
 /*Gallery*/
 .gallery-wrapper{
   height: auto;
-  border-top: solid;
-  padding: 50px 0;
-  margin-bottom: 80px;
+  padding: 30px 0;
+  margin: 40px 0;
 }
 .gallery-container{
   display:inline-block;
