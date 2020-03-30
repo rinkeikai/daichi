@@ -31,6 +31,9 @@ a {
 .top-container{
 height: auto;
 }
+.top-title{
+  width: 100%;
+}
 .container {
   width: 100%;
   max-width: 1170px;

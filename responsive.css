@@ -6,6 +6,10 @@
   body{
     height: auto;
   }
+  .top-title{
+    padding-top: 40%;
+    width: 80%;
+  }
   footer {
     height: 66px;
   }
@@ -56,6 +60,9 @@
   }
   body{
     height: 100%;
+  }
+  .top-title{
+    padding-top: 50%;
   }
   footer {
     height: 55px;
